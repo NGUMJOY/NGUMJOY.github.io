@@ -1,0 +1,193 @@
+body{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+header{
+ background-color: white;
+ padding: 30px;
+ height: 10%;
+
+
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+header .logo{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
+}
+
+header .menu .menu-item a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  margin-top: -50px ;
+}
+
+header .menu .menu-item.active a, 
+header .menu .menu-item:hover a{
+  color: #2231ff;
+  font-weight: bold;
+}
+
+section {
+  padding: 4rem 0;
+}
+.hero{ 
+  height: calc(100vh - 66px);
+  background: url('treason.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 18vh;
+  margin-top: -66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+
+  
+}
+
+.hero .content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+
+.hero .content span{
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hero .content span.border-bottom{
+  width: 50px;
+
+}
+.content h1{
+  font-size: 4rem;
+  margin: -5% 0 0 0;
+  text-align: center;
+  color: white;
+}
+
+
+button, .btn{
+  color: black;
+  float: right;
+  text-decoration: none;
+  margin: -75px 0 0 100px;
+  border: 1px solid grey;
+  padding: 10px;
+  
+}
+
+ul li{
+  padding: 10px;
+font: 20px;
+display: inline-flex;
+cursor: pointer;
+transition: 0.15s;
+}
+
+
+.about_img{
+  width: 300px; 
+  height: 80%;
+  padding: 30px;
+}
+
+button, a.bb{
+background-color: blue;
+color: #FFFFFF;
+border-radius: 2px;
+padding: 15px;
+transition: 0.15s;
+text-decoration: none;
+}
+
+button, a.bt{
+  background-color: blanchedalmond;
+  padding: 10px;
+  transition: 0.15s;
+  border-radius: 2px;
+  color: black;
+  text-decoration: none;
+
+}
+
+
+
+.caption{
+  display: flex;
+  margin-left: 120px;
+  margin-top: 30px;
+  
+
+}
+.summary{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -30px 0 40px 10%;
+  gap: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.senior{
+  background-color: azure;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.main_team_section{
+  background-color: azure;
+  padding-top: 30px;
+  text-align: center;
+  
+}
+
+.junior{
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.junior .p1 img{
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+}
+
+.junior .p2 img{
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+}
+
+.junior .p3 img{
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+}
+
+
+.many{
+  margin: 25px 10px 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
